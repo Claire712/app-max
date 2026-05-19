@@ -15,7 +15,7 @@ UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOGO_PATH = os.path.join(BASE_DIR, "assets", "en_tete.png")
+LOGO_PATH = os.path.join(BASE_DIR, "en_tete.png")
 
 
 # ==========================================================
